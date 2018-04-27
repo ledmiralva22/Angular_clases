@@ -1,0 +1,12 @@
+<div class="ui grid">
+  <div class="four column row">
+    <div class="ui main text container">
+      <app-search-filter #searchFilter></app-search-filter>
+    </div>
+  </div>
+  <div class="four column row">
+    <div class="ui main text container">
+      <app-articles-list [searchFilter]="searchFilter"></app-articles-list>
+    </div>
+  </div>
+</div>
